@@ -1,27 +1,31 @@
 Locales['de'] = {
-  ['properties'] = 'Immobilien',
-  ['clients'] = 'kunden',
-  ['realtor'] = 'makler',
-  ['amount_withdraw'] = 'betrag zun abheben',
-  ['invalid_amount'] = 'ungültiger Betrag',
-  ['press_to_access'] = 'drücke ~INPUT_CONTEXT~ um das Menü zu öffnen',
-  ['amount'] = 'betrag',
-  ['no_play_near'] = 'kein Spieler in der Nähe',
-  ['realtors'] = 'makler',
-  ['boss_action'] = 'boss Actions',
-  ['client_poor'] = 'your client cannot afford that',
+  -- Allgemein
+  ['properties'] 					= 'Markler',
+  ['clients'] 						= 'Kunden',
+  ['realtor'] 						= 'Makler',
+  ['amount_withdraw'] 				= 'Betrag zun Abheben',
+  ['invalid_amount'] 				= 'Ungültiger Betrag!',
+  ['press_to_access'] 				= 'Benutze ~INPUT_CONTEXT~ um auf das Menu zuzugreifen.',
+  ['amount'] 						= 'Betrag',
+  ['no_play_near'] 					= 'Kein Anwohner in der Nähe!',
+  ['realtors'] 						= 'Makler',
+  ['boss_action'] 					= 'Boss Aktionen',
+  ['client_poor'] 					= 'Dein Kunde kann sich dies nicht leisten!',
 
-  -- Property menu
-  ['property_name'] = 'immobilie',
-  ['property_actions'] = 'actions',
-  ['property_actionbuttons'] = '{{Zuweisen [Verkaufen]|sell}} {{Zuweisen [Vermieten]|rent}} {{GPS|gps}}',
+  -- Wohnung
+  ['property_name'] 				= 'Immobilienname',
+  ['property_actions'] 				= 'Immobilien Aktionen',
+  ['property_actionbuttons'] 		= '{{Zuweisen [Verkaufen]|sell}} {{Zuweisen [Vermieten]|rent}} {{GPS|GPS}}',
 
-  -- Customer menu
-  ['customer_client'] = 'kunden',
-  ['customer_property'] = 'immobilie',
-  ['customer_agreement'] = 'agreement',
-  ['customer_actions'] = 'actions',
-  ['customer_contractbuttons'] = '{{Revoke contract|revoke}} {{GPS|gps}}',
-  ['customer_rent'] = 'mieten',
-  ['customer_sell'] = 'verkaufen',
+  -- Eigentümer
+  ['customer_client'] 				= 'Kunden',
+  ['customer_property'] 			= 'Immobilienbesitzer',
+  ['customer_agreement'] 			= 'Eigentümer Verträge',
+  ['customer_actions'] 				= 'Eigentümer Aktionen',
+  ['customer_contractbuttons'] 		= '{{Vertrag wiederrufen|aufheben}} {{GPS|GPS}}',
+  ['customer_rent'] 				= 'Vermieten',
+  ['customer_sell'] 				= 'Verkaufen',
 }
+
+-- Translated from EN to DE
+-- GreetZ NebelRebell
